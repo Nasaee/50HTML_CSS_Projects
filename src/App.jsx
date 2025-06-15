@@ -2,10 +2,14 @@ import styled from 'styled-components';
 import './App.css';
 import NikeProductCard from './projects/NikeProductCard';
 import NikeProductCardTailwind from './projects/NikeProductCardTailwind';
+import SignUpForm from './projects/SignUpForm';
+import SignUpFormTailwind from './projects/SignUpFormTailwind';
 
 function App() {
   return (
     <AppContainer>
+      <SignUpForm />
+      <SignUpFormTailwind />
       <NikeProductCard />
       <NikeProductCardTailwind />
     </AppContainer>
