@@ -4,14 +4,16 @@ import NikeProductCard from './projects/NikeProductCard';
 import NikeProductCardTailwind from './projects/NikeProductCardTailwind';
 import SignUpForm from './projects/SignUpForm';
 import SignUpFormTailwind from './projects/SignUpFormTailwind';
+import DarkMod from './projects/DarkMod';
 
 function App() {
   return (
     <AppContainer>
       <SignUpForm />
-      <SignUpFormTailwind />
+      {/* <SignUpFormTailwind /> */}
       <NikeProductCard />
       <NikeProductCardTailwind />
+      <DarkMod />
     </AppContainer>
   );
 }
